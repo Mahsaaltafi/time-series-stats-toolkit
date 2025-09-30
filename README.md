@@ -1,6 +1,7 @@
 # time-series-stats-toolkit
 
-Toolkit for analyzing time-series signals with methods for event alignment, continuous rate estimation, spectral power, and statistical testing.
+Toolkit for analyzing time-series signals with methods for event alignment, continuous rate estimation, spectral power, and statistical testing.  
+Applicable to domains such as sensor analytics, biomedical data, and industrial time-series.
 
 ---
 
@@ -24,7 +25,3 @@ Tested on Ubuntu 16.04.3 and macOS.
 ## Citation
 These codes were originally developed for:
 Chen, Altafi et al. (2024). *The dynamic state of a prefrontal-hypothalamic-midbrain circuit commands behavioural transitions.*
-
-If you use this code in academic work, please cite:  
-Chen, Altafi et al. (2024). *The dynamic state of a prefrontal-hypothalamic-midbrain circuit commands behavioural transitions.*
-
