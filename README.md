@@ -1,22 +1,30 @@
+
 # README
+# time-series-stats-toolkit
 
-This repository contains some of the codes for preliminary data analysis, statistical test or figure generation in "The dynamic state of a prefrontal-hypothalamic-midbrain circuit commands behavioural transitions" (Chen, Altafi et al. 2024).
+Toolkit for analyzing time-series signals with methods for event alignment, continuous rate estimation, spectral power, and statistical testing.  
+Applicable to domains such as sensor analytics, biomedical data, and industrial time-series.
 
-## System requirments and Dependencies
+---
 
-A functional Python 3.7 (https://www.python.org/) and MATLAB 2014b or 2017b
-(https://www.mathworks.com/) is required to run the codes. The codes were tested on ubuntu
-16.04.3 and on MacOS.
+## Features
+- Event-aligned cross-correlogram analysis
+- Continuous firing rate estimation and heatmap visualization
+- Wavelet-based time–frequency power spectra
+- Statistical tests for circular and multivariate data
 
-### Python dependencies that can be installed using pip:
-- numpy
-- scipy
-- pandas
+## Requirements
+- **Python 3.7+**  
+  - `numpy`, `scipy`, `pandas`
+- **MATLAB 2014b or later**  
+  - Signal Processing Toolbox  
+  - Parallel Computing Toolbox  
 
-### MATLAB dependencies:
-- Signal Processing Toolbox
-- Parallel Computing Toolbox
+Tested on Ubuntu 16.04.3 and macOS.
 
+---
 
-
+## Citation
+These codes were originally developed for:
+Chen, Altafi et al. (2024). *The dynamic state of a prefrontal-hypothalamic-midbrain circuit commands behavioural transitions.*
 
